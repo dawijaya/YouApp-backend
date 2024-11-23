@@ -1,6 +1,6 @@
-# YouApp
+# Api YouApp
 
-YouApp adalah aplikasi chat berbasis web yang menggunakan **NestJS** sebagai backend, **MongoDB** sebagai database, dan **RabbitMQ** untuk sistem microservices. Aplikasi ini memiliki fitur-fitur seperti autentikasi dengan JWT, pengelolaan pengguna, serta layanan chat real-time menggunakan WebSocket.
+ menggunakan **NestJS** sebagai backend, **MongoDB** sebagai database, dan **RabbitMQ** untuk sistem microservices. Aplikasi ini memiliki fitur-fitur seperti autentikasi dengan JWT, pengelolaan pengguna, serta layanan chat real-time menggunakan WebSocket.
 
 ## Fitur
 
@@ -11,14 +11,14 @@ YouApp adalah aplikasi chat berbasis web yang menggunakan **NestJS** sebagai bac
 
 ## Prasyarat
 
-Pastikan Anda sudah menginstal Docker di mesin Anda. Jika belum, Anda dapat mengunduh dan menginstal Docker dari [sini](https://www.docker.com/products/docker-desktop).
+Pastikan Anda sudah menginstal Docker, rabbitmq, mongo dan lainnya di mesin Anda. Jika belum, Anda dapat mengunduh dan menginstal Docker dari [sini](https://www.docker.com/products/docker-desktop).
 
 ## Cara Menjalankan Aplikasi dengan Docker
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/youapp.git
+git clone https://github.com/dawijaya/YouApp-backend.git
 cd youapp
 
 ### 2. Bangun dan Jalankan Docker Compose, socket.io dan nestjs.
